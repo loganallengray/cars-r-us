@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 10px 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.options {
+    border-radius: 5px;
+    border: solid 3px #83D883;
+    text-align: center;
+    margin: 10px 35px;
+    padding: 10px 15px;
+    background-color: #90EE90;
+    flex-basis: 0%;
+    flex-grow: 1;
+}
+
+#orderButton {
+    display: block;
+    width: 25%;
+    font-size: 1.2em;
+    margin: 20px auto;
+}
+
+#orderArticle {
+    margin: 10px 40px;
+}
